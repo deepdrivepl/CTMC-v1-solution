@@ -1,0 +1,7 @@
+classes= 1
+train  = ../filelists/000-train
+valid  = ../filelists/000-val
+names = ../cfgs/cells.names
+backup = ../backups/000-backup
+eval=coco
+
