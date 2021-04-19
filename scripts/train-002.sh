@@ -1,0 +1,1 @@
+~/darknet/build/darknet detector train ../cfgs/002-v4.data ../cfgs/002-v4.cfg ../backups/001-backup/001-v4_best.weights -map -clear -gpus 0,1 -dont_show -mjpeg_port 8090  > train002-output 2> train002-stderr

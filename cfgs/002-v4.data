@@ -1,0 +1,7 @@
+classes= 1
+train  = /home/karol/CTMCCVPR20/filelists/002-train
+valid  = /home/karol/CTMCCVPR20/filelists/002-val
+names = /home/karol/CTMCCVPR20/cfgs/cells.names
+backup = /home/karol/CTMCCVPR20/backups/002-backup
+eval=coco
+

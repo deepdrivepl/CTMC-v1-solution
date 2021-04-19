@@ -1,7 +1,7 @@
 classes= 1
-train  = ../filelists/001-train
-valid  = ../filelists/001-val
-names = ../cfgs/cells.names
-backup = ../backups/001-backup
+train  = /home/karol/CTMCCVPR20/filelists/001-train
+valid  = /home/karol/CTMCCVPR20/filelists/001-val
+names = /home/karol/CTMCCVPR20/cfgs/cells.names
+backup = /home/karol/CTMCCVPR20/backups/001-backup
 eval=coco
 
