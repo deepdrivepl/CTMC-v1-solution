@@ -1,3 +1,4 @@
 *.jpg
 .ipynb_checkpoints/
 backups/
+*/img1
