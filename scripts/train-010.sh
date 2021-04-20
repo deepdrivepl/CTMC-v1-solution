@@ -1,0 +1,1 @@
+~/darknet/build/darknet detector train ../cfgs/010-v4.data ../cfgs/010-v4.cfg /home/karol/darknet/yolov4.conv.137 -map -clear -gpus 0,1 -dont_show -mjpeg_port 8090  > train010-output 2> train010-stderr
