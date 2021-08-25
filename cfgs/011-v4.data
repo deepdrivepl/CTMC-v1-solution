@@ -1,0 +1,7 @@
+classes= 1
+train  = /mnt/12TB/projects/CTMCCVPR20/CTMCCVPR20/filelists/011-train
+valid  = /mnt/12TB/projects/CTMCCVPR20/CTMCCVPR20/filelists/011-val
+names = /mnt/12TB/projects/CTMCCVPR20/CTMCCVPR20/cfgs/cells.names
+backup = /mnt/12TB/projects/CTMCCVPR20/CTMCCVPR20/backups/011-backup
+eval=coco
+
