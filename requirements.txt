@@ -1,0 +1,6 @@
+tqdm
+numpy
+opencv-contrib-python
+Pillow
+norfair
+lapsolver
