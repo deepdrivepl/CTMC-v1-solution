@@ -29,6 +29,12 @@ conda activate CTMC
 pip install -r requirements.txt
 ```
 
+### Run inference ([weights](https://www.dropbox.com/s/kivz7s1dfyp4ndg/011-v4_best.weights?dl=1))
+
+```
+darknet detector test cfgs/011-v4.data cfgs/011-v4.cfg backups/011-v4_best.weights -ext_output -dont_show -out results/011-best-val.json < filelists/011-val
+```
+
 ### Convert detections to MOT format
 
 ```
@@ -88,3 +94,4 @@ https://user-images.githubusercontent.com/39097446/131012746-d651e596-dd0a-4b86-
 - [https://github.com/bochinski/iou-tracker](https://github.com/bochinski/iou-tracker)
 - [https://github.com/tryolabs/norfair](https://github.com/tryolabs/norfair)
 - [https://github.com/cheind/py-motmetrics](https://github.com/cheind/py-motmetrics)
+- [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
