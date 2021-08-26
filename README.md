@@ -77,6 +77,12 @@ python -m motmetrics.apps.eval_motchallenge ../train ../results/011-best-val/nor
 |OVERALL v-IoU|45.4%|48.4%|42.7%|64.2%|72.8%|374|137|178|59|54528|81297|1968|4975|39.4%|0.296|107|1867|52|
 |OVERALL norfair|52.0%|54.1%|50.0%|65.3%|70.6%|374|134|184|56|61925|78829|1107|3280|37.6%|0.298|118|894|64|
 
+
+### Output video (YOLOv4 + norfair)
+https://user-images.githubusercontent.com/39097446/131012746-d651e596-dd0a-4b86-9f21-42819e1b4a05.mp4
+
+
+
 ## Acknowledgements
 
 - [https://github.com/bochinski/iou-tracker](https://github.com/bochinski/iou-tracker)
